@@ -1,1 +1,117 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9fcff;
+    color: #1e2b3a;
+}
 
+header {
+    background: #1e3a5f;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background: #2d5d8a;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.banner .btn {
+    background: #4da3ff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.destaques {
+    padding: 2rem;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.produto {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+    width: 200px;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produto button {
+    background: #4da3ff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.avaliacao {
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.instagram {
+    background: #e0f0ff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.instagram .btn {
+    background: #1e3a5f;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+footer {
+    background: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
